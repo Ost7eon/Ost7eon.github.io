@@ -1,0 +1,141 @@
+a
+{
+    text-decoration: none;
+    /* 去掉下划线 */
+}
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    
+}
+.vlogbox ul
+{
+    display: flex;
+}
+.vlogbox
+{
+    display: flex;
+    align-items: center;
+    height: 800px;
+    
+    left: 40px;
+    width: 1600px;
+    margin-left: 55px;
+
+}
+.vlogbox_section
+{
+    /* display: inline-block; */
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.vlog_wrapper
+{
+    background-position: center;
+    background-size: 400px 400px;
+    /* position: absolute; */
+    height: 400px;
+    width: 400px;
+    top: 0px;
+    left: 55px;
+    z-index: -1;
+
+}
+.triangleup
+{
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+    left: 50%;
+    margin-left: 160px;
+    /* position: absolute; */
+    margin-top: -50px;
+    top: 50%;
+    z-index: -1;
+}
+.triangleup::before
+{
+    content: "\25B2";
+    /* 三角形 */
+    color: #fff;
+    font-size: 85px;
+}
+.triangledown
+{
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+    left: 50%;
+    margin-right: 0;
+    /* position: absolute; */
+    margin-bottom: -50px;
+    top: 50%;
+    z-index: -1;
+    transform: rotate(180deg);
+    /* 旋转180度 */
+}
+.triangledown::before
+{
+    content: "\25B2";
+    /* 三角形 */
+    color: #fff;
+    font-size: 85px;
+}
+.vlog_content
+{
+  
+    height: 400px;
+    width: 400px;
+    /* position: absolute; */
+    text-align: center;
+    background-color: #fff;
+    left: 55px; 
+
+}
+.vlog_text
+{
+    padding: 0px 30px 20px ;
+    line-height: 14px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /* position: absolute; */
+    top: 400px;
+    height: 300px;
+}
+p
+{
+    margin-top: 10px;
+    font-family: "Grad", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    margin-bottom: 4px;
+}
+
+.button
+{
+    color: #222;
+
+    border: 3px solid black;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    margin-left: 125px;
+}
+.vlog_text a
+{
+    font-size: 17px;
+    font-weight:900;
+    line-height: 14px;
+
+    margin-top: 30px;
+
+
+}
+.vlog_text a span
+{
+    margin-top: 20px;
+}

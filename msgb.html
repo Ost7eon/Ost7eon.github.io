@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+    <title>MessageBoard</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="msgb.css">
+</head>
+
+<body>
+    <div>
+        <!-- 导航区nav -->
+        <nav>
+            <ul class="navigation">
+                <li style="height: 25%"><a href="index.html">HOME</a></li>
+                <li style="height: 25%"><a href="vlog.html">VLOG</a></li>
+                <li style="height: 25%"><a href="plog.html">PLOG</a></li>
+                <li style="height: 25%"><a href="msgb.html">MSGB</a></li>
+            </ul>
+        </nav>
+        <!-- end of nav -->
+    </div>
+    </div>
+    <!-- 页眉区header -->
+        <header>
+            <h1>
+                Say
+                <strong>Whatever U Want</strong>
+                To Me 
+            </h1>
+        </header>
+    <!-- end of header -->  
+
+    <!-- 留言板页面msgbpage，其中分为左右两部分，左边是小视频video，
+    右边是留言板区messagebox -->
+    <div class="msgbpage">
+        <!-- 视频区video -->
+        <div class="video">
+            <video loop muted autoplay src="video/doggie.MP4" height="300px">
+            </video>
+        </div>
+        <!-- end of video -->
+
+        <!-- 留言板区messagebox，其中分为上下两部分，上面是标题区messagebox_title，
+        下面是留言板内容区messagebox_content -->
+        <div class="messagebox">
+            <div class="messagebox_title">
+                <h3>Just Say Something!</h3>
+            </div>
+            <!-- 留言板内容区messagebox_content，使用表单，分为四个form_section，
+                两个文本框，一个文本域以及一个按钮launchbutton -->
+            <div class="messagebox_content">
+                <form>
+                    <div class="form_section">
+                        <input type="text" placeholder="Name:  你是谁呀">
+                    </div>
+                    <div class="form_section">
+                        <input type="text" placeholder="E-mail:  告诉我你的联系方式吧">
+                    </div>
+                    <div class="form_section">
+                        <textarea rows="5" cols="30"  placeholder="Message:  有什么想对我说的吗"></textarea>
+                    </div>
+                    <div class="launchbutton">
+                        <button>I'm Done</button>
+                    </div>
+                </form>
+            </div>
+            <!-- end of messagebox -->
+    </div>
+</body>

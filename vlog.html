@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<head>
+    <title>VLOG</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="vlog.css">
+</head>
+
+
+<body>
+    <div>
+        <!-- 导航区nav -->
+        <nav>
+            <ul class="navigation">
+                <li style="height: 25%"><a href="index.html">HOME</a></li>
+                <li style="height: 25%"><a href="vlog.html">VLOG</a></li>
+                <li style="height: 25%"><a href="plog.html">PLOG</a></li>
+                <li style="height: 25%"><a href="msgb.html">MSGB</a></li>
+            </ul>
+        </nav>
+        <!-- end of nav -->
+    </div>
+    <div class="vlogbox">
+        <!-- 把页面vlog_box用flex布局横向排列
+            分为纵向的四列vlogbox_section；
+            每一列又用flex布局纵向排列
+            分为上下两部分vlog_wrapper和vlog_content-->
+        <ul>
+             <!-- 第一列，又分为上下两部分，上面是视频封面，下面是简介和链接 -->
+            <li>
+                <div class="vlogbox_section">
+                    <div  class="vlog_wrapper" style="background-image: url(images/vlog3.JPG);"></div>
+                    <div class="triangleup"></div>
+                    <div class="vlog_content">
+                        <div class="vlog_text">
+                            <p class="vlog_date">May 3rd , 2020</p><br>
+                            <h3>“三美大闹狗莱坞”</h3><br>
+                            <p>打狗小分队再度出山</p>
+                            <p>一起逛盒马涮火锅吧！</p>
+                            <!-- 跳转到b站查看更多 -->
+                            <a href="https://www.bilibili.com/video/BV1Qf4y1y7nU" class="button" target="_blank">
+                            <br><br><span>More</span>
+                            </a>
+                        </div>
+                    </div>
+                 </div>
+            </li>
+            <!-- end of 第一列 -->
+
+            <!-- 第二列，也分为上下两部分，上面是简介和链接，下面是视频封面 -->
+            <li  class="vlogbox_section">
+                <div class="vlog_content">
+                    <div class="vlog_text">
+                        <p class="vlog_date">Aug 14th , 2020</p><br>
+                        <h3>“和所有的烦恼说Bye-bye”</h3><br>
+                        <p>没有经历过海底捞生日的人生不完整</p>
+                        <p>一起来对快乐Say Hi！</p>
+                        <a href="https://www.bilibili.com/video/BV1Wh411X721" class="button" target="_blank">
+                        <br><br><span>More</span>
+                        </a>
+                    </div>
+                    <div class="triangledown"></div>
+                    <div  class="vlog_wrapper" style="background-image: url(images/vlog2.JPG);"></div>
+                    
+                </div>
+
+            </li>
+            <!-- end of 第二列 -->
+
+            <!-- 第三列，同第一列 -->
+            <li>
+                <div class="vlogbox_section">
+                    <div  class="vlog_wrapper" style="background-image: url(images/vlog1.JPG);"></div>
+                    <div class="triangleup"></div>
+                    <div class="vlog_content">
+                        <div class="vlog_text">
+                            <p class="vlog_date">Oct 7th , 2020</p><br>
+                            <h3>“Sweet 20th for MM”</h3><br>
+                            <p>鄂尔多斯真是个好地方</p>
+                            <p>来看看我的美女朋友！</p>
+                            <a href="https://www.bilibili.com/video/BV1hK411u7iX" class="button" target="_blank">
+                            <br><br><span>More</span>
+                            </a>
+                        </div>
+                    </div>
+                 </div>
+            </li>
+            <!-- end of 第三列 -->
+
+            <!-- 第四列，同第二列 -->
+            <li  class="vlogbox_section">
+                <div class="vlog_content">
+                    <div class="vlog_text">
+                        <p class="vlog_date">July 16th , 2020</p><br>
+                        <h3>“Date with Lex”</h3><br>
+                        <p>黑松露燕麦拿铁 我一生难愈合的伤</p>
+                        <p>来听听陈粒西安分粒的演唱会！</p>
+                        <a href="https://www.bilibili.com/video/BV1JK411N7aa" class="button" target="_blank">
+                        <br><br><span>More</span>
+                        </a>
+                    </div>
+                    <div class="triangledown"></div>
+                    <div  class="vlog_wrapper" style="background-image: url(images/vlog4.JPG);"></div>    
+                </div>
+            </li>
+            <!-- end of 第四列 -->
+        </ul>
+        
+
+    </div>
+</body>
+</html>
